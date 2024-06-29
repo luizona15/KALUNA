@@ -1,0 +1,158 @@
+:root{
+   --rosa-principal: #df4592;
+   --rosa-claro-principal: #fa86d0;
+   --botao-lilas: #bf53a8;
+   --cor-de-fundo: #F2E3E6; 
+   --botao-lilas-efeito: #b264a1;
+   --fonte-principal:'Inter';
+   --rosa-secundario: #fa86d0;
+   --preto: #070707;
+ }
+
+ body {
+   background-color: var(--cor-de-fundo);
+   color: var(--cinza-principal);
+   font-family: var(--fonte-principal);
+   font-size: 16px;
+   font-weight: 100;
+ }
+ 
+  * {
+   margin:0;
+   padding:0;
+ }
+
+.principal { 
+   background-image: url("WhatsApp\ Image\ 2024-06-17\ at\ 09.13.14.jpeg");
+   background-repeat: no-repeat;
+   background-size: contain;
+   align-items: center;
+   text-align: center;
+ }
+
+ .container {
+   height: 100vh;
+   display: grid;
+   grid-template-columns: 35% 35%;
+ }
+
+.container_botao {
+   background-color: var(--botão-lilas);
+   border-radius: 5px;
+   padding: 1em;
+   color: var(--rosa-principal);
+   display: block;
+   text-decoration: none;
+   margin-bottom: 1em;
+}
+
+.botao_secundario {
+   background-color: transparent;
+   border: 2px solid var(--rosa-principal)
+}
+ 
+.container_aivso {
+  font-size: 12px;
+  color:var(--rosa-secundario);
+} ;
+
+.container_titulo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.container_imagem {
+  margin: 0 6em;
+}
+
+.container_caixa {
+  margin: 0 6em;
+}
+
+.terceira_imagem {
+ width: 10;
+ height: 70vh;
+ display: grid;
+ grid-template-columns: 35% 35%;
+}
+
+.secundario {
+  align-items: center;
+}
+
+.descricao_titulo {
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--branco-principal);
+  margin-bottom: 0.1em;
+}
+
+.container_descricao {
+  padding: 2em;
+}
+
+.dispositivos_lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 5em 0;
+}
+
+.dispositivos {
+  text-align: center;
+}
+
+.dispositivos_titulo {
+  font-size: 48px;
+  color: var(--botao-lilas);
+}
+
+.lista_item {
+  font-size: 32px;
+  color: var(--preto);
+}
+
+.rodape_lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
+}
+
+.lista_link a{
+  text-decoration: none;
+  color: var(--botao-lilas);
+  margin-left: 1em;
+}
+
+.rodape_texto {
+  margin: 1em 0;
+  color: var(--botao-lilas);
+  font-size: 14px;
+}
+
+.lista_link a:hover {
+  color: var(--botao-lilas);
+}
+
+.lista_link a:active {
+  color: rebeccapurple;
+} 
+
+.lista_link a:hover {
+  color: var(--botao-lilas);
+}
+
+.lista_link a:active {
+  color: rebeccapurple;
+} 
+
+.container_botao:hover {
+  background-color: var(--botao-lilas);
+  color: var(--botao-lilas);
+}
+
+.rodape {
+  text-align: center;
+  margin: 5em 3em;
+}
