@@ -69,26 +69,24 @@
   margin: 0 6em;
 }
 
-.terceira_imagem {
- width: 10;
- height: 70vh;
- display: grid;
- grid-template-columns: 35% 35%;
+.secundario_imagem {
+ width: 80%;
 }
 
 .secundario {
   align-items: center;
+  margin: 0 10em;
 }
 
 .descricao_titulo {
   font-weight: 700;
-  font-size: 35px;
-  color: var(--branco-principal);
+  font-size: 40px;
+  color: var(--preto);
   margin-bottom: 0.1em;
 }
 
-.container_descricao {
-  padding: 1em;
+.descricao_texto {
+  color: var(--preto);
 }
 
 .dispositivos_lista {
