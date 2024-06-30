@@ -70,12 +70,12 @@
 }
 
 .secundario_imagem {
- width: 80%;
+ width: 90%;
 }
 
 .secundario {
   align-items: center;
-  margin: 0 10em;
+  margin: 0 9em;
 }
 
 .descricao_titulo {
@@ -87,6 +87,15 @@
 
 .descricao_texto {
   color: var(--preto);
+}
+
+.secundario_botao {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.container_descricao {
+  padding: 2em;
 }
 
 .dispositivos_lista {
@@ -102,7 +111,7 @@
 
 .dispositivos_titulo {
   font-size: 48px;
-  color: var(--botao-lilas);
+  color: var(--preto);
 }
 
 .lista_item {
